@@ -1,0 +1,61 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyc.*
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+.txt
+
+# ---- Virtual Environments ----
+fl_env/
+fl-env/
+test_env/
+venv/
+.venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Datasets And Local Experiment Files ----
+data/
+data2/
+MNIST/
+federated_cti/MNIST/
+federated_cti/data/
+
+# ---- Model And Training Outputs ----
+*.pth
+*.pt
+*.ckpt
+accuracy_history.json
+accuracy_plot.png
+
+# ---- Logs ----
+*.log
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.vscode/
+.idea/
+
+# ---- Misc ----
+*.sqlite3
+
+
+.html
+
+.json
